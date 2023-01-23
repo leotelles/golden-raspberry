@@ -7,7 +7,7 @@ import javax.persistence.*;
 
 @Data
 @Entity
-public class AwardModel {
+public class MovieModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
