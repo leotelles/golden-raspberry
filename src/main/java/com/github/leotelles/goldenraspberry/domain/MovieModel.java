@@ -7,6 +7,7 @@ import javax.persistence.*;
 
 @Data
 @Entity
+@Table(name = "movies")
 public class MovieModel {
 
     @Id
